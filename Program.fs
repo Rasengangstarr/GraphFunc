@@ -19,7 +19,6 @@ let max x y =
     | true -> x
     | false -> y
 
-
 let row (s : float, f : float, v : float) =
     seq { for x in floor s .. floor f do yield (if x = floor v then "X" else " ")}
 
@@ -33,10 +32,18 @@ let graph (s, f, st :float, fnc) =
             printf "%s" j
         printf "\n"
 
+let basedGraph (s, f, sy, fy, st :float, fnc) =
+    for i in seq { for y in s  .. st .. f do yield seq { for a in floor sy .. floor fy do yield (if a = floor (snd (Seq.find (fun z -> (fst z) = y) (seq { for b in s .. st .. f do yield (b, fnc b) }))) then "X" else " ")} }  do
+        for j in i do
+            printf "%s" j
+        printf "\n"
+
+
+
 
 [<EntryPoint>]
 let main argv =
-    graph (-5.0, 5.0, 0.1, (fun x -> 5.0 * sin (x*x)))
+    basedGraph (-4.0, 4.0, -5.0, 5.0, 1.0, (fun x -> 5.0 * sin x ))
     0
 
 //

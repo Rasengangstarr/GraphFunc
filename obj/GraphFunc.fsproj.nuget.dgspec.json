@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/david/Documents/GraphFunc/GraphFunc.fsproj": {}
+    "/home/david/Documents/GraphFunc/GraphFunc/GraphFunc.fsproj": {}
   },
   "projects": {
-    "/home/david/Documents/GraphFunc/GraphFunc.fsproj": {
+    "/home/david/Documents/GraphFunc/GraphFunc/GraphFunc.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/david/Documents/GraphFunc/GraphFunc.fsproj",
+        "projectUniqueName": "/home/david/Documents/GraphFunc/GraphFunc/GraphFunc.fsproj",
         "projectName": "GraphFunc",
-        "projectPath": "/home/david/Documents/GraphFunc/GraphFunc.fsproj",
+        "projectPath": "/home/david/Documents/GraphFunc/GraphFunc/GraphFunc.fsproj",
         "packagesPath": "/home/david/.nuget/packages/",
-        "outputPath": "/home/david/Documents/GraphFunc/obj/",
+        "outputPath": "/home/david/Documents/GraphFunc/GraphFunc/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/david/.nuget/NuGet/NuGet.Config"

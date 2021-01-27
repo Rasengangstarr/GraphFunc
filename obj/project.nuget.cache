@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jDT7wYs8RHNZfSU1GSXwzrrNimhCXJCbInME9kj8dN//7RB/q4vj12AtYxr7NXWh8RF/b2zde1qwKLZLpRlv1A==",
+  "dgSpecHash": "W+oaLb+fGs198tSgyLdefCCG4Q7+y56B5sIbPDaNUmQfNSjMUq95+u91amAsrC4/ykGLQfZJXy7UoWDm0D3TiA==",
   "success": true,
-  "projectFilePath": "/home/david/Documents/GraphFunc/GraphFunc.fsproj",
+  "projectFilePath": "/home/david/Documents/GraphFunc/GraphFunc/GraphFunc.fsproj",
   "expectedPackageFiles": [
     "/home/david/.nuget/packages/fsharp.core/5.0.0/fsharp.core.5.0.0.nupkg.sha512"
   ],
